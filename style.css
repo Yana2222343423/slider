@@ -26,29 +26,3 @@ alt=""></div>
 <!-- Добавление скроллбара в HTML код -->
 <div class="swiper-scrollbar"></div>
 </div>
-_______________
-.swiper-container {
-width: 640px;
-height: 400px
-}
-.swiper-slide {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-____________
-new Swiper('.swiper-container', {
-// Вывод стрелок навигации
-navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
-},
-pagination: {
-el: '.swiper-pagination',
-},
-// Вывод скроллбара
-scrollbar: {
-el: '.swiper-scrollbar',
-draggable: true
-},
-})
